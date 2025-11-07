@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sürükle Bırak Kart Sistemi</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Sürükle Bırak Kart Sistemi (Trello Tarzı)</h1>
+    <div class="board">
+        <div class="column" data-status="todo">
+            <h2>Yapılacaklar</h2>
+            <div class="card" draggable="true">Görev 1</div>
+            <div class="card" draggable="true">Görev 2</div>
+        </div>
+        <div class="column" data-status="inprogress">
+            <h2>Devam Ediyor</h2>
+            <div class="card" draggable="true">Görev 3</div>
+        </div>
+        <div class="column" data-status="done">
+            <h2>Tamamlandı</h2>
+            <div class="card" draggable="true">Görev 4</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

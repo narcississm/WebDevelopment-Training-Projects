@@ -1,0 +1,16 @@
+[{
+        "id": 1,
+        "title": "İlk Blog Yazısı",
+        "content": "Bu, JSON dosyasından gelen ilk blog yazısıdır."
+    },
+    {
+        "id": 2,
+        "title": "İkinci Yazı",
+        "content": "JSON ve fetch API kullanarak veri çekme örneği."
+    },
+    {
+        "id": 3,
+        "title": "Üçüncü Yazı",
+        "content": "Frontend geliştirme için temel JavaScript teknikleri."
+    }
+]
